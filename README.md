@@ -9,6 +9,12 @@ brew tap hydai/murmur
 brew install --cask murmur
 ```
 
+After installation, clear the quarantine attribute (unsigned app):
+
+```bash
+xattr -cr /Applications/Murmur.app
+```
+
 ## Updating
 
 Murmur includes a built-in auto-updater. You can also update via Homebrew:
