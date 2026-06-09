@@ -7,7 +7,7 @@ cask "murmur" do
   desc "Privacy-first BYOK voice typing app"
   homepage "https://github.com/hydai/murmur"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
   depends_on arch: :arm64
 
   app "Murmur.app"
