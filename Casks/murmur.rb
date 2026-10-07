@@ -1,6 +1,6 @@
 cask "murmur" do
-  version "0.2.21"
-  sha256 "82017c17d6b1ce94ce955514c765a0a635aed29b683d95400078ba4db0590edb"
+  version "0.2.22"
+  sha256 "5f363281452a4e1d60214bb7439366ad670180bfcca64ad5809db35625c52e92"
 
   url "https://github.com/hydai/murmur/releases/download/v#{version}/Murmur_#{version}_aarch64.dmg"
   name "Murmur"
